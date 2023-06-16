@@ -1,0 +1,157 @@
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+::-moz-placeholder {
+  font-style: italic;
+}
+
+:-moz-placeholder {
+  font-style: italic;
+}
+
+:-ms-input-placeholder {
+  font-style: italic;
+}
+
+*:focus {
+  outline: none;
+}
+
+.show {
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.active {
+  background: #fffdcf;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6d6d6d;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+}
+
+.container {
+  background-color: #fff;
+  margin: 50px;
+  box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.1);
+  width: 500px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  padding: 0 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.title span {
+  font-size: 18px;
+}
+
+.info {
+  width: 100%;
+  padding: 15px;
+}
+
+.delete_todo {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.delete_icon {
+  display: none;
+}
+
+.add-todo-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+
+.add-todo-action input,
+.edit_description {
+  border: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+.add-todo-action input {
+  padding: 5px;
+}
+
+.edit_description {
+  display: none;
+  width: 100%;
+  background: transparent;
+  padding: 15px;
+}
+
+.add-todo-action .todo-button {
+  background-color: #fff;
+  border: none;
+  color: #949494;
+  display: none;
+}
+
+.clear-button {
+  background: #f6f6f6;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  border: none;
+  color: #949494;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.cursor_dragger {
+  cursor: row-resize;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.line_thr {
+  text-decoration: line-through;
+  color: #999;
+}
